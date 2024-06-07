@@ -1,0 +1,103 @@
+.section1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 50px 0;
+}
+
+.div1 {
+    height: 550px;
+    width: 400px;
+    background-color: #f6ff81;
+    overflow: hidden;
+    padding-bottom: 0;
+    border-radius: 40px;
+    margin-bottom: -5px;
+    position: relative;
+}
+
+.div1 img {
+    width: 410px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    position: absolute;
+    top : -30px;
+}
+
+.div2 h1 {
+    font-size: 4rem;
+    width: 400px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.div2 > p {
+    color: rgb(99, 99, 99);
+    width: 400px;
+    line-height: 1.7;
+    font-size: 0.9rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.div2 button {
+    height: 65px;
+    width: 400px;
+    background-color: white;
+    border-radius: 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    box-shadow : 1px 2px 6px rgba(0,0,0,0.1);
+}
+
+.div2 button p{
+    color: black;
+    font-weight: 700;
+    margin-left: 0;
+    text-align: start;
+    margin-left: 40px;
+}
+
+.div2 button img {
+    margin-right: 11px;
+    background-color: #f6ff81;
+    border-radius: 24px;
+    height: 48px;
+}
+
+.div3 {
+    /* height: max-content; */
+    display: flex;
+    flex-direction: column;
+    justify-content : space-between;
+    align-items: flex-end;
+    align-self: flex-start;
+    margin-top: 40px;
+}
+
+.div3 > div {
+    background-color: #f6ff81;
+    height: 180px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding: 25px 10px;
+    border-radius: 28px;
+    margin-top: 20px;
+}
+
+.div3 > div h1{
+    font-size: 3rem;
+}
+
+.div3 > div h3 {
+    margin-left: 5px;
+    font-size: 0.9em;
+}

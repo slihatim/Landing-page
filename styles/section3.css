@@ -1,0 +1,81 @@
+.section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 70px;
+    margin-top: 120px;
+    margin-bottom: 60px;
+}
+
+.section3 .first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+}
+
+.section3 .first >h1{
+    font-size: 2.6em;
+    font-weight: 700;
+    max-width: 300px;
+    min-width: 250px;
+
+}
+
+.section3 .first >p{
+    line-height: 1.9;
+    font-size: 0.9em;
+    color: #4a4a4a;
+    max-width: 640px;
+    min-width: 250px;
+    margin-left: 150px;
+
+}
+
+.section3 .second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 150px;
+}
+
+.section3 .second > img{
+    border-radius: 30px;
+}
+
+.section3 .content h1{
+    font-size: 4em;
+}
+
+.section3 button {
+    height: 65px;
+    width: 230px;
+    background-color: #080404;
+    border-radius: 33px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+}
+
+.section3 button p{
+    color: rgb(231, 231, 231);
+    font-weight: 700;
+    margin-left: 0;
+    text-align: start;
+    margin-left: 40px;
+    /* font-size: 1.1em; */
+}
+
+.section3 button img {
+    margin-right: 11px;
+    background-color: #f6ff81;
+    border-radius: 24px;
+    height: 48px;
+
+}

@@ -1,0 +1,90 @@
+.footer {
+    background-color: #080404;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.footer .info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px 0;
+    margin: 30px 0 15px 0;
+    border-bottom: 1px solid white ;
+}
+
+.footer .info1 > img {
+    margin-bottom: 40px;
+}
+
+.footer .info1 > p {
+    color: white;
+    font-size: 1.3em;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.footer .info1 button {
+    height: 65px;
+    width: 450px;
+    background-color: white;
+    border-radius: 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    box-shadow : 1px 2px 6px rgba(0,0,0,0.1);
+}
+
+.footer .info1 button p{
+    color: black;
+    font-weight: 700;
+    margin-left: 0;
+    text-align: start;
+    margin-left: 40px;
+}
+
+.footer .info1 button img {
+    margin-right: 11px;
+    background-color: #f6ff81;
+    border-radius: 24px;
+    height: 48px;
+}
+
+.footer .info-i {
+    margin-top: 18px;
+    margin-left: 70px;
+}
+
+.footer .info-i p{
+    margin-bottom: 10px;
+    font-weight: 200;
+}
+
+.footer .info2 {
+    margin-left: 150px;
+}
+
+.footer .info4 {
+    margin-right: 100px;
+}
+
+.footer .info5 button {
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    gap: 10px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.footer > p {
+    font-size: 0.8em;
+    font-weight: 200;
+    color: rgb(173, 173, 173);
+}

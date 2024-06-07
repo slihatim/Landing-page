@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'BRSonoma';
+}
+
+*::before, *::after {
+    box-sizing: inherit;
+}
+
+
+@font-face {
+    font-family: 'BRSonoma';
+    src: url('./fonts/BRSonoma-Thin-BF654c45255ffe0.otf') format('opentype');
+    font-weight: 100; /* thin */
+    font-style: normal; 
+}
+
+@font-face {
+    font-family: 'BRSonoma';
+    src: url('./fonts/BRSonoma-ExtraLight-BF654c45265af8d.otf') format('opentype');
+    font-weight: 200; /* extra-light */
+    font-style: normal; 
+}
+
+@font-face {
+    font-family: 'BRSonoma';
+    src: url('./fonts/BRSonoma-Light-BF654c452608e0f.otf') format('opentype');
+    font-weight: 300; /* light */
+    font-style: normal; 
+}
+
+@font-face {
+    font-family: 'BRSonoma';
+    src: url('./fonts/BRSonoma-Regular-BF654c45266c042.otf') format('opentype');
+    font-weight: 400; /* regular */
+    font-style: normal; 
+}
+
+@font-face {
+    font-family: 'BRSonoma';
+    src: url('./fonts/BRSonoma-Medium-BF654c45266edd1.otf') format('opentype');
+    font-weight: 500; /* medium */
+    font-style: normal; 
+}
+
+@font-face {
+    font-family: 'BRSonoma';
+    src: url('./fonts/BRSonoma-SemiBold-BF654c45268c340.otf') format('opentype');
+    font-weight: 600; /*semi-bold */
+    font-style: normal; 
+}
+
+@font-face {
+    font-family: 'BRSonoma';
+    src: url('./fonts/BRSonoma-Bold-BF654c4526823f5.otf') format('opentype');
+    font-weight: 700; /* bold */
+    font-style: normal; 
+}
+
+@font-face {
+    font-family: 'BRSonoma';
+    src: url('./fonts/BRSonoma-Black-BF654c4525506bf.otf') format('opentype');
+    font-weight: 900; /* black */
+    font-style: normal; 
+}
+
